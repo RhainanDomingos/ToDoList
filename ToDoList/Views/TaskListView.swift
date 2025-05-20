@@ -22,9 +22,10 @@ struct TaskListView: View {
             VStack {
                 ZStack {
                     List {
-                        ForEach(items) { item in
-                            NavigationLink(destination: TaskEditView(passedTaskItem: nil, initialDate: Date()).environmentObject(dateHolder)) {
-                                Text(item.dueDate!, formatter: itemFormatter)
+                        ForEach(items) { taskItem in
+                            NavigationLink(destination: TaskEditView(passedTaskItem: taskItem, initialDate: Date()).environmentObject(dateHolder)) {
+                                TaskCell(passedTaskItem: taskItem)
+                                    .environmentObject(dateHolder)
                             }
                         }
                         .onDelete(perform: deleteItems)

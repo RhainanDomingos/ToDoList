@@ -15,6 +15,9 @@
 		AFB599462DDBEDB400ACDEBF /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFB599402DDBEDB400ACDEBF /* ToDoList.xcdatamodeld */; };
 		AFB599472DDBEDB400ACDEBF /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB599412DDBEDB400ACDEBF /* ToDoListApp.swift */; };
 		AFB599482DDBEDB400ACDEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB5993D2DDBEDB400ACDEBF /* Assets.xcassets */; };
+		AFED649F2DDC0C1A002B01D9 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED649E2DDC0C1A002B01D9 /* TaskCell.swift */; };
+		AFED64A12DDC0DBB002B01D9 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED64A02DDC0DBB002B01D9 /* CheckBoxView.swift */; };
+		AFED64A42DDC0EC8002B01D9 /* TaskItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED64A32DDC0EC8002B01D9 /* TaskItemExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		AFB5993F2DDBEDB400ACDEBF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AFB599412DDBEDB400ACDEBF /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		AFB599432DDBEDB400ACDEBF /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		AFED649E2DDC0C1A002B01D9 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		AFED64A02DDC0DBB002B01D9 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		AFED64A32DDC0EC8002B01D9 /* TaskItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,8 @@
 			children = (
 				AF4DA52E2DDBF341001B199E /* TaskEditView.swift */,
 				AFB5993E2DDBEDB400ACDEBF /* TaskListView.swift */,
+				AFED649E2DDC0C1A002B01D9 /* TaskCell.swift */,
+				AFED64A02DDC0DBB002B01D9 /* CheckBoxView.swift */,
 				AF4DA5292DDBF2C9001B199E /* FloatingButton.swift */,
 			);
 			path = Views;
@@ -78,6 +86,7 @@
 		AFB599422DDBEDB400ACDEBF /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				AFED64A22DDC0EA9002B01D9 /* Model */,
 				AF4DA5312DDBFF5B001B199E /* Shared */,
 				AF4DA52F2DDBF341001B199E /* Views */,
 				AFB5993F2DDBEDB400ACDEBF /* Persistence.swift */,
@@ -85,6 +94,14 @@
 				AFB599402DDBEDB400ACDEBF /* ToDoList.xcdatamodeld */,
 			);
 			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		AFED64A22DDC0EA9002B01D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFED64A32DDC0EC8002B01D9 /* TaskItemExtension.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4DA5332DDBFF82001B199E /* DateHolder.swift in Sources */,
+				AFED64A42DDC0EC8002B01D9 /* TaskItemExtension.swift in Sources */,
 				AFB599442DDBEDB400ACDEBF /* TaskListView.swift in Sources */,
 				AFB599452DDBEDB400ACDEBF /* Persistence.swift in Sources */,
 				AF4DA52A2DDBF2C9001B199E /* FloatingButton.swift in Sources */,
+				AFED64A12DDC0DBB002B01D9 /* CheckBoxView.swift in Sources */,
+				AFED649F2DDC0C1A002B01D9 /* TaskCell.swift in Sources */,
 				AF4DA5302DDBF341001B199E /* TaskEditView.swift in Sources */,
 				AFB599462DDBEDB400ACDEBF /* ToDoList.xcdatamodeld in Sources */,
 				AFB599472DDBEDB400ACDEBF /* ToDoListApp.swift in Sources */,
