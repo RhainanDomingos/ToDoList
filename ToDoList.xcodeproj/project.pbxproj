@@ -11,6 +11,7 @@
 		AF4DA52A2DDBF2C9001B199E /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA5292DDBF2C9001B199E /* FloatingButton.swift */; };
 		AF4DA5302DDBF341001B199E /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA52E2DDBF341001B199E /* TaskEditView.swift */; };
 		AF4DA5332DDBFF82001B199E /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA5322DDBFF82001B199E /* DateHolder.swift */; };
+		AF5B5FA82DDEC84800C7554D /* TaskFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B5FA72DDEC84800C7554D /* TaskFilter.swift */; };
 		AFB599442DDBEDB400ACDEBF /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB5993E2DDBEDB400ACDEBF /* TaskListView.swift */; };
 		AFB599452DDBEDB400ACDEBF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB5993F2DDBEDB400ACDEBF /* Persistence.swift */; };
 		AFB599462DDBEDB400ACDEBF /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFB599402DDBEDB400ACDEBF /* ToDoList.xcdatamodeld */; };
@@ -26,6 +27,7 @@
 		AF4DA5292DDBF2C9001B199E /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		AF4DA52E2DDBF341001B199E /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
 		AF4DA5322DDBFF82001B199E /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		AF5B5FA72DDEC84800C7554D /* TaskFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFilter.swift; sourceTree = "<group>"; };
 		AFB5992A2DDBEDAC00ACDEBF /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB5993D2DDBEDB400ACDEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFB5993E2DDBEDB400ACDEBF /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				AFED649E2DDC0C1A002B01D9 /* TaskCell.swift */,
 				AFED64A02DDC0DBB002B01D9 /* CheckBoxView.swift */,
 				AF4DA5292DDBF2C9001B199E /* FloatingButton.swift */,
+				AF5B5FA72DDEC84800C7554D /* TaskFilter.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				AFED64A42DDC0EC8002B01D9 /* TaskItemExtension.swift in Sources */,
 				AFB599442DDBEDB400ACDEBF /* TaskListView.swift in Sources */,
 				AFB599452DDBEDB400ACDEBF /* Persistence.swift in Sources */,
+				AF5B5FA82DDEC84800C7554D /* TaskFilter.swift in Sources */,
 				AF4DA52A2DDBF2C9001B199E /* FloatingButton.swift in Sources */,
 				AFED64A12DDC0DBB002B01D9 /* CheckBoxView.swift in Sources */,
 				AFED649F2DDC0C1A002B01D9 /* TaskCell.swift in Sources */,
